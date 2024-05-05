@@ -79,18 +79,17 @@ nav li{
     border: none;
 }
 /* sponsors */
-.sponsors{ 
-    width: 1110px;
-    height: 2px;
-    background: linear-gradient(90deg, rgba(192, 204, 218, 0.10) 0%, rgba(192, 204, 218, 0.60) 50.38%, rgba(192, 204, 218, 0.10) 100%);
-    margin: 0 180px;
- } 
 .sponsors-img{ 
     display: flex;
     justify-content: space-evenly;
     align-items: center;
     padding: 40px 0;
-    gap: 10px;
+    margin: 0 180px;
+   
+}
+/* cards */
+h3{
+    border: 3px solid black;
 }
 
 
