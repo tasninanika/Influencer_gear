@@ -184,6 +184,17 @@ h3{
     line-height: 143%;
     margin-top: -13px ;
 }
+.button-card{
+    color: rgba(224, 44, 109, 0.87);
+    font-family: Poppins;
+    font-size: 1rem;
+    font-weight: 700;
+    display: inline;
+
+}
+.pink-arrow{
+    padding-top: 2px;
+}
 
 
 
