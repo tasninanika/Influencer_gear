@@ -84,11 +84,14 @@ nav li{
     font-weight: 700;
     border-radius: 41px;
     background: #E02C6D;
-    display: inline-flex;
+    display: flex;
     padding: 10px 24px;
     align-items: flex-start;
     gap: 8px;
     border: none;
+}
+.white-arrow{
+    margin-top: -2px;
 }
 /* sponsors */
 .sponsors-img{ 
@@ -189,12 +192,20 @@ h3{
     font-family: Poppins;
     font-size: 1rem;
     font-weight: 700;
-    display: inline;
+    display: inline-flex;
+    align-items: center;
+    border: none;
+    margin: 70px 0px 0px 1195px;
+    box-shadow: none;
+    background-color: white;
 
 }
 .pink-arrow{
-    padding-top: 2px;
+    width: 16px;
+    height: 14.001px;
+    margin-left: 7px;
 }
+    
 
 
 
