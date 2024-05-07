@@ -7,7 +7,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@700&display=swap');
 
 
-header, .start-journey, h3,.cards-title, .button-card, .featured-title, .featured-text, .featured-button{
+header, .start-journey, h3,.cards-title, .button-card, .featured-title, .featured-text, .featured-button, .footer-title{
     font-family: Poppins;
 }
 .price, .card-text, .card-text2{
@@ -31,7 +31,6 @@ nav{
 }
 nav h2{
     color: #3A3A3A;
-    font-feature-settings: 'clig' off, 'liga' off;
     font-size: 1.5rem;
     font-weight: 700;
 }
