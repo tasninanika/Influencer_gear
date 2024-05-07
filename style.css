@@ -5,7 +5,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
 
 
-header, .start-journey, h3,.cards-title{
+header, .start-journey, h3,.cards-title, .button-card, .featured-title, .featured-text, .featured-button{
     font-family: Poppins;
 }
 .price, .card-text, .card-text2{
@@ -107,8 +107,8 @@ nav li{
 main{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    padding-left: 196px;
-    padding-right: 185px;
+    padding-left: 200px;
+    padding-right: 200px;
     gap: 30px;
     margin-top: -70px;
 }
@@ -124,7 +124,7 @@ h3{
     border-radius: 5px;
     background: #FFF;
     box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.15);
-    width: 350px;
+    width: 330px;
     height: 476px;
     
 }
@@ -132,7 +132,7 @@ h3{
     border-radius: 5px;
     width: 300px;
     height: 256px;
-    margin: 25px 15px 0px 25px;
+    margin: 17px 15px 0px 15px;
 }
 .cards-title{
     color: var(--Text-Gray-900, #18191F);
@@ -189,14 +189,12 @@ h3{
 }
 .button-card{
     color: rgba(224, 44, 109, 0.87);
-    font-family: Poppins;
     font-size: 1rem;
     font-weight: 700;
     display: inline-flex;
     align-items: center;
     border: none;
-    margin: 70px 0px 0px 1195px;
-    box-shadow: none;
+    margin: 50px 0px 0px 1145px;
     background-color: white;
 
 }
@@ -204,6 +202,41 @@ h3{
     width: 16px;
     height: 14.001px;
     margin-left: 7px;
+}
+/* feature */
+.feature{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin: 90px 100px 0px 165px;
+}
+.featured-para{
+    margin-left: -90px;
+    
+}
+.featured-title{
+    color: #0A0826;
+    font-size: 2.375rem;
+    font-weight: 700;
+    line-height: 60px;
+}
+.featured-text{
+    color: #6C6C6C;
+    font-size: 1rem;
+    font-weight: 700;
+    line-height: 28px;
+    width: 501px;
+    height: 88px;
+    margin-top: -20px;
+}
+.featured-button{
+    background: #E02C6D;
+    display: inline-flex;
+    padding: 10px 24px;
+    align-items: flex-start;
+    gap: 8px;
+    color: #FFF;
+    font-size: 1rem;
+    font-weight: 700;
 }
     
 
