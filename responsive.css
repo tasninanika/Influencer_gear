@@ -1,17 +1,23 @@
 @media screen and (max-width: 576px){
     body{
         border: 3px solid black;
+        width: 417px;
+        margin: 0;
+
     }
+    /* header */
    nav{
     flex-direction: column;
+    border: 3px solid black;
    }
    nav h2{
+    margin-top: -20px;
     font-size: 1.9rem;
     width: 320px;
     height: 24x;
     margin-left: -65px;
     margin-bottom:0;
-    /* border: 3px solid tomato; */
+    border: 3px solid tomato;
    }
    nav li a{
     font-size: 0.8rem
@@ -28,5 +34,187 @@
     }
     .search{
         display: none;
+    }
+    
+    /* journey */
+    .start-journey{
+        flex-direction: column-reverse;
+    }
+    .circle{
+        bottom: 60px;
+        width: 340px;
+        right: 83px;
+        border: 3px solid black;
+    }
+    .camera{
+        width: 280px;
+        bottom: 20px;
+        left: 60px;
+        border: 3px solid black;
+    }
+    
+    .journey{
+        margin-top: -200px;
+    }
+    .journey h1{
+        width: 400px;
+        font-size: 2.2rem;
+        margin-left:-110px;
+        padding: 0;
+        margin-right: 0px;
+        margin-top: 0px;
+        border: 3px solid red;
+    }
+    .influencer{
+        text-align: center;
+        padding-top: -60px;
+    }
+    .journey p{
+        font-size: 16px;
+        width: 350px;
+        height: 65px;
+        margin-left: -90px;
+        padding: 0;
+        border: 3px solid red;
+        text-align: center;
+
+    }
+    .button{
+        width: 194px;
+        height: 44px;
+        margin-top: 30px;
+        margin-left: -10px;
+        /* border: 3px solid black; */
+    }
+    .sponsors-img{
+        flex-wrap: wrap;
+        width: 370px;
+        height: 80px;
+        margin-left: 25px;
+        margin-top: 60px;
+        padding: 0px;
+        gap: 20px;
+        border: 3px solid red;
+        justify-content: space-between;
+        border-image-source: none;
+        /* border: none; */
+
+    }
+    .alibaba{
+        width: 50px;
+        height: auto;
+    }
+    .amazon{
+        width: 70px;
+        height: auto;
+        padding-top: 10px;
+    }
+    .daraz{
+        width: 70px;
+        height: auto;
+    }
+    .ebay{
+        width: 60px;
+        height: auto;
+    }
+    .rakuten{
+        padding-left: 30px;
+        width: 80px;
+        height: auto;
+    }
+    .walmart{
+        width: 100px;
+        height: auto;
+    }
+    .target{
+        padding-right: 30px;
+        width: 90px;
+        height: auto;
+    }
+    /* cards */
+    main{
+        grid-template-columns: repeat(1, 1fr);
+        padding-left: 20px;
+        padding-right: 0px;
+        border: 3px solid black;
+        margin-right: 10px;
+    }
+    h3{
+        margin-left: 30px ;
+        border: 3px solid black;
+        margin-right: 30px ;
+    }
+    .card{
+        width: 372px;
+        height: 476px;
+        border: 3px solid black;
+    }
+    .larger-img{
+        width: 340px;
+        margin-left: 18px ;
+        margin-right: 0px;
+    }
+    .button-card{
+        margin: 20px 0px 0px 290px;
+        border: 3px solid black;
+
+    }
+    /* feature */
+    .feature{
+        display: flex;
+        flex-direction: column-reverse;
+        border: 3px solid red;
+        margin-top: 10px;
+        margin-left: 10px;
+        margin-right: 10px;
+        
+
+    }
+    .featured-title{
+        border: 3px solid black;
+    }
+    .featured-para{
+        text-align: center;
+        margin-left:0px;
+        border: 3px solid black;
+    }
+    .featured-text{
+        width: 360px;
+        height: 88px;
+        margin-left: 20px;
+        border: 3px solid black;
+
+    }
+    .featured-button{
+        margin-top: 60px;
+        width: 120px;
+        height: 30px;
+        align-items: center;
+        padding-left: 38px;
+        border: 3px solid black;
+        
+    }
+    .featured-arrow{
+        position: relative;
+        top: 1px;
+        bottom: 20px;
+    }
+    .featured-img{
+        margin-top: 60px;
+        margin-left:5px ;
+        margin-right: 10px
+        width: 350px;
+        height: 250px;
+        border: 5px solid black;
+    }
+    /* footer */
+    footer{
+        width: 417px;
+        height: 211px;
+        margin-left: 5% ;
+        margin: 0;
+        padding: 0;
+        /* border: 5px solid red; */
+        
     }
 }
