@@ -18,8 +18,9 @@ header, .start-journey, h3,.cards-title, .button-card, .featured-title, .feature
 }
 
 body{
-    width: 100%;
+    width: 98%;
     margin: 0 auto;
+    border: 3px solid black;
 }
 /* header */
 header, .start-journey{
@@ -51,10 +52,9 @@ nav li{
 }
 /* journey */
 .start-journey{
-    width: 100%;
     display: flex;
     margin-top: 86px;
-    gap: 200px;
+    gap: 100px;
 }
 .journey{
     margin-top: 60px;
@@ -78,11 +78,11 @@ nav li{
 .circle{
     position: relative;
     bottom: 40px;
-    left: 27px;
+    left: 15px;
 }
 .camera{
     position: relative;
-    left: 40px;
+    left: 30px;
     bottom: 480px;
 }
 .button{
@@ -106,12 +106,12 @@ nav li{
     justify-content: space-evenly;
     align-items: center;
     padding: 40px 0;
-    margin-left: 200px;
+    margin-left: 160px;
     margin-right: auto;
     margin-top: -400px;
     padding-top: 60px;
     padding-bottom: 60px;
-    width: 75%;
+    width: 1110px;
     height: 2px;
     border-top: 2px solid ;
     border-bottom: 2px solid;
@@ -121,12 +121,11 @@ nav li{
 
 /* cards */
 main{
-    width: 80%;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    padding-left: 230px;
+    padding-left: 180px;
     padding-right: 200px;
-    gap: 30px;
+    gap: 20px;
     margin-top: -70px;
 }
 h3{
@@ -211,7 +210,7 @@ h3{
     display: inline-flex;
     align-items: center;
     border: none;
-    margin: 50px auto 0px 1250px;
+    margin: 50px 0px 0px 1145px;
     background-color: white;
 
 }
@@ -222,10 +221,9 @@ h3{
 }
 /* feature */
 .feature{
-    width: 90%;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    margin: 90px 40px 0px 200px;
+    margin: 90px 100px 0px 130px;
 }
 .featured-para{
     margin-left: -90px;
