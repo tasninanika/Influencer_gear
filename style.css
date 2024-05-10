@@ -51,6 +51,7 @@ nav li{
 }
 /* journey */
 .start-journey{
+    width: 100%;
     display: flex;
     margin-top: 86px;
     gap: 200px;
@@ -110,7 +111,7 @@ nav li{
     margin-top: -400px;
     padding-top: 60px;
     padding-bottom: 60px;
-    width: 1110px;
+    width: 75%;
     height: 2px;
     border-top: 2px solid ;
     border-bottom: 2px solid;
@@ -120,6 +121,7 @@ nav li{
 
 /* cards */
 main{
+    width: 80%;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     padding-left: 230px;
@@ -209,7 +211,7 @@ h3{
     display: inline-flex;
     align-items: center;
     border: none;
-    margin: 50px 0px 0px 1170px;
+    margin: 50px auto 0px 1250px;
     background-color: white;
 
 }
@@ -220,6 +222,7 @@ h3{
 }
 /* feature */
 .feature{
+    width: 90%;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     margin: 90px 40px 0px 200px;
