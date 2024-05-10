@@ -18,7 +18,7 @@ header, .start-journey, h3,.cards-title, .button-card, .featured-title, .feature
 }
 
 body{
-    width: 98%;
+    width: 100%;
     margin: 0 auto;
 }
 /* header */
@@ -77,11 +77,11 @@ nav li{
 .circle{
     position: relative;
     bottom: 40px;
-    right: 20px;
+    left: 27px;
 }
 .camera{
     position: relative;
-    right: 8px;
+    left: 40px;
     bottom: 480px;
 }
 .button{
@@ -105,7 +105,7 @@ nav li{
     justify-content: space-evenly;
     align-items: center;
     padding: 40px 0;
-    margin-left: 150px;
+    margin-left: 180px;
     margin-right: auto;
     margin-top: -400px;
     padding-top: 60px;
@@ -256,7 +256,7 @@ h3{
  /*footer */
  footer{
     background: #0A0826;
-    width: 1440px;
+    width: 100%;
     height: 239px;
  }
  .footer-title{

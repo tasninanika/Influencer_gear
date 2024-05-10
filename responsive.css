@@ -3,6 +3,7 @@
         width: 417px;
         margin: 0;
         padding: 0;
+        /* border: 3px solid black; */
     }
     /* header */
    nav{
@@ -140,7 +141,7 @@
     /* cards */
     main{
         grid-template-columns: repeat(1, 1fr);
-        padding-left: 22px;
+        padding-left: 26px;
         padding-right: 0px;
         margin-right: 10px;
     }
@@ -199,14 +200,14 @@
     }
     .featured-img{
         margin-top: 60px;
-        margin-left:12px ;
+        margin-left:15px ;
         margin-right: 10px
         width: 350px;
         height: 250px;
     }
     /* footer */
     footer{
-        width: 417px;
+        width: 425px;
         height: 211px;
         margin-left: 5% ;
         margin: 0;
@@ -214,3 +215,4 @@
         
     }
 }
+
