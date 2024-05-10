@@ -20,7 +20,6 @@ header, .start-journey, h3,.cards-title, .button-card, .featured-title, .feature
 body{
     width: 98%;
     margin: 0 auto;
-    border: 3px solid black;
 }
 /* header */
 header, .start-journey{
@@ -54,7 +53,7 @@ nav li{
 .start-journey{
     display: flex;
     margin-top: 86px;
-    gap: 80px;
+    gap: 110px;
 }
 .journey{
     margin-top: 60px;
@@ -123,7 +122,7 @@ nav li{
 main{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    padding-left: 190px;
+    padding-left: 195px;
     padding-right: 200px;
     gap: 20px;
     margin-top: -70px;
@@ -210,7 +209,7 @@ h3{
     display: inline-flex;
     align-items: center;
     border: none;
-    margin: 50px 0px 0px 1160px;
+    margin: 50px 0px 0px 1165px;
     background-color: white;
 
 }
@@ -223,7 +222,7 @@ h3{
 .feature{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    margin: 90px 100px 0px 150px;
+    margin: 90px 100px 0px 160px;
 }
 .featured-para{
     margin-left: -90px;
